@@ -1,0 +1,66 @@
+.image{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(244, 243, 247);
+    position: relative;
+    left: 330px;
+    top: 50px;
+    border-radius: 50px;
+    z-index: 1;
+    
+}
+img{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    border: 0;
+    overflow: hidden;
+    border-radius: 50px;
+    
+}
+button{
+    position: absolute;
+    font-size: x-large;
+    border: none;
+    display: flex;
+    cursor: pointer ;
+    outline: none;
+    background-color: rgb(150, 149, 143);
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 5px 5px 10px chartreuse inset;
+    
+}
+
+.left{
+    top: 210px;
+    left: -50px;
+    overflow: hidden;
+    
+
+}
+.right{
+    top: 210px;
+    left: 720px;
+   
+}
+
+.back_1{
+    background: url(./1.jpeg);
+}
+
+.back_2{
+    background: url(./2.jpg);
+}
+
+.back_3{
+    background: url(./3.jpg);
+}
+
+.back_4{
+    background: url(./4.jpg);
+}
+
+.back_5{
+    background: url(./5.jpeg);
+}
